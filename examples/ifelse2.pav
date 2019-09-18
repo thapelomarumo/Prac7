@@ -1,0 +1,11 @@
+void Main () { $C+
+// if-then-elsif-else
+  int i;
+  while (true) {
+    read(i);
+    if (i == 12) write("twelve");
+    elsif (i == 13) write("thirteen");
+    else write("nothing special");
+    write(i, "\n");
+  }
+}

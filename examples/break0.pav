@@ -1,0 +1,9 @@
+void Main () {
+// break0.pav
+// Simple break statements
+  while (true) {
+    write(1);
+	break;
+    write(2);
+  } 
+}

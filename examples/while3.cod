@@ -1,0 +1,9 @@
+ASSEM
+BEGIN
+  {    0 } FHDR    
+  {    1 } CALL     4
+  {    3 } HALT    
+  {    4 } DSP      0
+  {    6 } PRNS     "This is a string that is way too long to fit on one source line comfortably so we simply write it in pieces as two adjacent shorter strings"
+  {    8 } RETV    
+END.
